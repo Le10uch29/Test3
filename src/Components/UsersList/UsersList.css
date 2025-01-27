@@ -1,0 +1,60 @@
+.UsersList__list {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+
+
+}
+
+.UsersList__items {
+          display: flex;
+          padding: 14px 0 14px 20px;
+          height: 100%;
+
+}
+
+.UsersList__list-info {
+          display: flex;
+          width: 100%;
+          align-items: center;
+          gap: 50px;
+          padding: 22px 10px 23px;
+}
+
+.UsersList__item {
+          width: 140px;
+          text-align: center;
+}
+
+.UsersList__item:first-child {
+          width: 44px;
+}
+
+.UsersList__item:nth-child(3) {
+          margin-left: auto;
+}
+
+
+.UsersList__edit {
+          width: 34px;
+          height: 34px;
+          background-color: #fff;
+          margin-right: 6px;
+          transition: all .3s ease-in-out;
+}
+
+.UsersList__delete {
+          width: 34px;
+          height: 34px;
+          background-color: #fff;
+          transition: all .3s ease-in-out;
+
+}
+
+.UsersList__delete:hover {
+          background-color: #ff9c9c;
+}
+
+.UsersList__edit:hover {
+          background-color: #b4ffad;
+}

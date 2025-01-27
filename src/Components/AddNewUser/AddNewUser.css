@@ -1,0 +1,63 @@
+.AddNewUser__modalOverlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 100vh;
+          background: rgb(189, 188, 188);
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-start;
+          z-index: 1000;
+}
+
+.AddNewUser__modal {
+          background: white;
+          padding: 20px;
+          border-radius: 8px;
+          width: 940px;
+          box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+          position: relative;
+          height: 100vh;
+}
+
+.AddNewUser__closeBtn {
+          position: absolute;
+          top: 20px;
+          left: 20px;
+          width: 14px;
+          height: 2px;
+          font-size: 20px;
+          cursor: pointer;
+          background-color: inherit;
+}
+
+
+.Line1 {
+          background-color: #828d99;
+          width: 14px;
+          height: 2px;
+          transform: rotate(45deg);
+}
+
+.Line2 {
+          background-color: #828d99;
+          width: 14px;
+          height: 2px;
+          transform: rotate(-45deg);
+}
+
+.AddNewUser__title {
+          margin: 0;
+          font-size: 18px;
+          margin-bottom: 10px;
+          text-align: left;
+          margin-bottom: 30px;
+}
+
+.AddNewUser__descr {
+          margin: 0;
+          text-align: left;
+          font-size: 14px;
+          margin-bottom: 20px;
+}

@@ -1,0 +1,19 @@
+.TopHeader__container {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 20px;
+}
+
+.TopHeader__descr {
+          margin: 0;
+          font-size: 26px;
+          line-height: 120%;
+          font-weight: normal;
+}
+
+.TopHeader__descr span {
+          font-size: 26px;
+          font-weight: 300;
+          color: #42474D;
+}

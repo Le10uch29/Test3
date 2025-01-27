@@ -1,0 +1,7 @@
+.LoginButton {
+  display: flex;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 14px;
+  color: white;
+}

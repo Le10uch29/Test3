@@ -1,0 +1,19 @@
+.Button__btn {
+          position: relative;
+          width: 316px;
+          height: 44px;
+          padding: 12.5px 24px 13.5px 60px;
+          background-color: #5CCC81;
+          border-radius: 16px;
+          text-align: center;
+          font-size: 14px;
+          font-weight: normal;
+          line-height: 18px;
+          color: #ffffff;
+}
+
+.Button__add {
+          position: absolute;
+          left: 24px;
+          top: 8.5px;
+}

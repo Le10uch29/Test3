@@ -1,0 +1,38 @@
+.UserInfo__container {
+          max-width: 100%;
+          width: 100%;
+}
+
+.UserInfo__list {
+          display: flex;
+          gap: 50px;
+          padding: 22px 10px 23px;
+}
+
+.UserInfo__item:not(:first-child) {
+          width: 135px;
+}
+
+.UserInfo__item:nth-child(2) {
+          width: 154px;
+}
+
+.UserInfo__item:first-child {
+          margin-right: auto;
+}
+
+.UserInfo__item:last-child {
+          display: hidden;
+}
+
+.UserInfo__item span {
+          color: #828d99;
+          background-image: url(../../../public/alfaFilter.svg);
+          background-position: right;
+          background-repeat: no-repeat;
+          padding-right: 15px;
+}
+
+.UserInfo__item:first-child {
+          margin-right: auto;
+}

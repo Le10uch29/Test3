@@ -1,0 +1,50 @@
+.SuccessModule__overlay {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: black;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 10000;
+          outline: 5px solid red;
+}
+
+.SuccessModule__container {
+          display: flex;
+          background-color: #fff;
+          border-radius: 20px;
+          width: 365px;
+          height: 268px;
+          padding: 30px;
+          flex-direction: column;
+          justify-content: end;
+          background-image: url(../../../../public/erorrServer.svg);
+          background-repeat: no-repeat;
+          background-position: 130px 30px;
+}
+
+.SuccessModule__descr {
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 120%;
+          margin-bottom: 30px;
+          text-align: center;
+}
+
+
+.SuccessModule__btn-cancel {
+          background-color: #4DA2D6;
+          width: 260px;
+          height: 44px;
+          border: 16px;
+          color: #fff;
+          border-radius: 16px;
+          transition: all .3s ease-in-out;
+}
+
+.SuccessModule__btn-cancel:hover {
+          background-color: rgb(88, 131, 172);
+}
