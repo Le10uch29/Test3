@@ -7,6 +7,7 @@
           justify-content: space-between;
           flex-wrap: nowrap;
           padding-top: 15px;
+          align-content: center;
 
 }
 
@@ -54,14 +55,28 @@
           background-color: #F2F4F7;
           border: none;
           width: 140.33px;
+          height: 44px;
           text-align: center;
           transition: all .3s ease-in-out;
           user-select: none;
+          text-align: center;
 }
 
-
+.UserForm__date {
+          border: none;
+          width: 286.67px;
+          height: 44px;
+          padding: 12px 38px;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 18px;
+          outline: none;
+          color: #828d99;
+          background-color: #f2f4f7;
+}
 
 .UserForm__radio-input {
+          padding: 0;
           display: none;
 }
 

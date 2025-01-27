@@ -178,10 +178,8 @@ const UserForm: React.FC<{
             onChange={(date) => setBirthDate(date!)}
             dateFormat="dd-MM-yyyy"
             required
+            className="UserForm__date"
           />
-          <label htmlFor="birthDay" className="UserForm__birth-date-label">
-            Дата рождения
-          </label>
         </div>
 
         <div className="UserForm__radio-cont">
